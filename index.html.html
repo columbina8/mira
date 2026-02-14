@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MIRA – Misuratore di Impatto nelle Relazioni Algorithmiche</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: #f4f7fc;
+      color: #1e2b3c;
+      line-height: 1.6;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+      padding: 48px 40px;
+    }
+
+    header {
+      margin-bottom: 32px;
+      border-bottom: 1px solid #e9edf2;
+      padding-bottom: 24px;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      letter-spacing: -1px;
+      color: #0a1c2f;
+      margin-bottom: 8px;
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: #4a6579;
+      margin-bottom: 20px;
+    }
+
+    .description {
+      background: #eef3f9;
+      padding: 20px 24px;
+      border-radius: 16px;
+      font-size: 1rem;
+      color: #1e3b5c;
+      border-left: 5px solid #2c7da0;
+      line-height: 1.5;
+    }
+
+    .form-wrapper {
+      margin: 40px 0 20px;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+      background: white;
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      height: 3000px;
+      border: none;
+      background: white;
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid #e9edf2;
+      font-size: 0.85rem;
+      color: #7a8f9c;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 20px 12px;
+      }
+      .container {
+        padding: 32px 20px;
+        border-radius: 16px;
+      }
+      h1 {
+        font-size: 2.2rem;
+      }
+      iframe {
+        height: 3400px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>MIRA</h1>
+      <div class="subtitle">Misuratore di Impatto nelle Relazioni Algorithmiche</div>
+      <div class="description">
+        <strong>Raccolta dati anonima.</strong> Le tue risposte confluiranno in tempo reale nella dashboard della presentazione.
+        Le 15 domande iniziali si riferiscono alle <strong>ultime due settimane</strong>; le ultime tre esplorano la tua opinione generale.
+        Compilazione rapida: 5-6 minuti.
+      </div>
+    </header>
+
+    <div class="form-wrapper">
+      <iframe 
+        src="https://docs.google.com/forms/d/e/1FAIpQLSdbHyUpwVQ-_7YblTCpIm9rXOxiRGTTac-9leHrK5dnCgJgaw/viewform?embedded=true" 
+        title="Modulo di autovalutazione MIRA"
+        loading="lazy">
+      </iframe>
+    </div>
+
+    <footer>
+      <p>MIRA v1.0 · Ricerca su AI relazionali e consapevolezza digitale</p>
+      <p>Dati anonimi · Nessuna informazione personale raccolta</p>
+    </footer>
+  </div>
+</body>
+</html>
